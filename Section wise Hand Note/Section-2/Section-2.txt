@@ -1,0 +1,35 @@
+Video-11:
+---------
+1. Lambda Expression: An anonymous function without a name and does not belong to any class
+2. Difference between Lambda and general function:
+	A function has 4 parts: return type, name, parameter list, body
+	A Lambda ex has 2 parts: paramer list and body. Return type will automatically be identified by the java compiler
+3. 
+	a. Lambda expression is used to implement functional interface. 
+   	b. Any functional interface has one SAM(Single Abstract method)
+	c. They are denoted with @FunctionalInterface
+	ex1:
+	@FunctionInterface
+	public interface Runnable(){
+	public abstract void run();
+	}
+
+	ex2: 
+	@FunctionalInterface
+	public interface Comperator(){
+	int compareTo(T o1, T o2);
+	}
+
+	ex3:
+	@FunctionaInterface
+	public interface Callable(){
+	V call() throws Exception;
+	}
+
+Video-15:
+---------
+1. Callable and Runnable both are used for multithreading. Callable is the improved version of Runnable.
+2. Both interfaces are designed to perform task by multiple threads.
+3. Runnable can be used using Thread class or ExecutorService where as Runnable can be used using latter.
+4. Callable is a generic interface which has a generic function call();
+

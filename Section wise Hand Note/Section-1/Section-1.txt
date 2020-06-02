@@ -1,0 +1,44 @@
+Video-1:
+---------
+
+
+
+
+
+
+Video-2:
+--------
+1. There are 2 types of programming appporach :
+a. Imperative programming : Says "how to do it"
+ex: Going to market -> buy fish -> cook -> eat
+
+b. Declarative programming: Says "what". Here i don't have to know how to do it, i just say what to do.
+ex: Eat fish
+ex1: (Sql) => select * from employee where id = 1;
+ex2: (HTML) => <h1>Hello World</h1>
+
+2. 
+a. Java 8 introduced declarative programming using lambda expression.
+b. Java 9-13 new features are introduced in lambda and functional programming
+
+3. 	Imperative style:
+	for(int i=1;i<=5;i++){
+		System.out.println(i);
+		}
+
+	Declartive style:
+a.	IntStream numbers = IntStream.of(1,2,3,4,5);
+	numbers.forEach(System.out::println);
+
+b.	IntStream numbers = IntStream.rangeClose(1,5);
+	numbers.forEach(System.out::println);
+
+
+
+
+
+
+
+
+
+
